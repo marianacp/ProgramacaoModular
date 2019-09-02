@@ -7,7 +7,7 @@
       <meta name="description" content="">
       <meta name="author" content="">
 	<link rel="shortcut icon" type="image/png" href="img/123.png"/>
-      <title>M&uacute;sica para todos - EMOTIONAL</title>
+      <title>Musica para todos - EMOTIONAL</title>
       <!-- Css -->
       <link href="css/bootstrap.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
