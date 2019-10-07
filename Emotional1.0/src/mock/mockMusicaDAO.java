@@ -32,7 +32,7 @@ public class mockMusicaDAO {
 		musica1.setId_musica(5);		
 		musica1.setId_artista(7);
 		musica1.setId_emocao(2);
-		musica1.setArquivo_musica("musicalização");
+		musica1.setArquivo_musica("musicalizaÃ§Ã£o");
 		musica1.setId_estilo_musical(3);
 		
 		System.out.println(musica1.getArquivo_musica());
@@ -56,7 +56,6 @@ public class mockMusicaDAO {
 		when(teste.getListaMusicasAprovadas("busca")).thenReturn(musicas);
 		musicas2 = doReturn(musicas).when(teste).getListaMusicasAprovadas("busca");
 		imprime(teste.getListaMusicasAprovadas("busca"));
-		assertEquals("busca", teste.getListaMusicasAprovadas(input1));
 		System.out.println("uuuuuuuuuuu");
 		imprime(musicas);
 	}
